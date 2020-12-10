@@ -11,8 +11,7 @@ public class CompteBancaire {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter la somme souhaite ajouter :");
         this.solde += myObj.nextDouble();
-        double v = ++solde;
-        System.out.println(new StringBuilder().append("le montant ajouter est :").append(" ").append(v).toString());
+        System.out.println("le montant ajouter est :" +" "+ solde);
     }
     public void Retirer(){
         Scanner myObj = new Scanner(System.in);
